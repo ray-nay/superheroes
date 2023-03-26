@@ -24,7 +24,7 @@ Fork and clone this repository to your local machine
 
 Navigate to the project directory in your terminal and open the project with the text editor of your choice.
 
-Open the terminal and run bundle install to install the app's dependencies.
+Open the terminal and run `bundle install` to install the app's dependencies.
 
 The app has 3 models structured in the files: hero.rb, hero_power.rb and power.rb which explain the relationships, validations and associations within the models.
 
