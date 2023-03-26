@@ -5,6 +5,7 @@ class HeroesController < ApplicationController
         render json: heroes
     end 
     def show
+        #add the serializer in order to display powers. 
         hero = Hero.find(params[:id])
         render json: hero, serializer: HerowithpowersSerializer
     end

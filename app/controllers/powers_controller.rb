@@ -14,9 +14,10 @@ class PowersController < ApplicationController
 
     def update 
         power = Power.find(params[:id])
+        #Add the bang operator to check for validation.
         power.update!(params_description)
         render json: power
-
+    end
     private
     def render_not_found_response
         render json: { error: "Power not found" }, status: :not_found
