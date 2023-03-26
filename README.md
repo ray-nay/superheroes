@@ -64,7 +64,6 @@ If the Power is not updated successfully (does not pass validations),
 
 return the following JSON data, along with the appropriate HTTP status code:
 
-```
 
 {
 
