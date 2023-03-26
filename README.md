@@ -32,6 +32,8 @@ It also has 3 corresponding controllers for the above models, located in the con
 
 The routes to make the CRUD requests are in the config/routes.rb file.
 
+## Testing the functionalities.
+
 To test out the functionalities; run the server through `rails s` command on your terminal. 
 
 1. To test out the routes for heroes:
